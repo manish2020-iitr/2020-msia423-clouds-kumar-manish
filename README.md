@@ -34,7 +34,7 @@ docker run --mount type=bind,source="$(pwd)",target=/app/ repro data/model_resul
 ```
 
 
-## Step 4: Performing tests
+## Step 5: Performing tests
 
 ```
 docker run --mount type=bind,source="$(pwd)",target=/app/ repro tests
