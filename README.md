@@ -27,6 +27,13 @@ docker run --mount type=bind,source="$(pwd)",target=/app/ repro data/raw.csv
 docker run --mount type=bind,source="$(pwd)",target=/app/ repro data/features.csv
 ```
 
+## Step 4: Building the model
+
+```
+docker run --mount type=bind,source="$(pwd)",target=/app/ repro data/model_results.csv
+```
+
+
 ## Step 4: Performing tests
 
 ```
