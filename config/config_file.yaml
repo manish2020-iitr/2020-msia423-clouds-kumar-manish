@@ -1,0 +1,28 @@
+acquire:
+  url: https://archive.ics.uci.edu/ml/machine-learning-databases/undocumented/taylor/cloud.data
+  column_names:
+      - visible_mean
+      - visible_max
+      - visible_min
+      - visible_mean_distribution
+      - visible_contrast
+      - visible_entropy
+      - visible_second_angular_momentum
+      - IR_mean
+      - IR_max
+      - IR_min
+  first_cloud_row_beg: 53
+  first_cloud_row_end: 1077
+  second_cloud_row_beg: 1082
+  second_cloud_row_end: 2106
+
+
+
+
+
+
+
+
+
+
+

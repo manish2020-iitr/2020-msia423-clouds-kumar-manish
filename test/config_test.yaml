@@ -1,0 +1,20 @@
+acquire:
+  command: python3 run.py acquire --config=config/config_file.yaml --output=test/test/raw.csv
+  true_dir: data/
+  test_dir: test/test_dr/
+  files_to_compare:
+    - raw.csv
+
+featurize:
+  command: python3 run.py featurize --input=data/raw.csv --config=config/config_file.yaml --output=test/test/features.csv
+  true_dir: data/
+  test_dir: test/test_dr/
+  files_to_compare:
+    - features.csv
+
+model:
+  command:  python3 run.py model --input=data/features.csv --config=config/config_file.yaml --output=test/test/model_results.csv
+  true_dir: data/
+  test_dir: test/test_dr/
+  files_to_compare:
+    - model_results.csv
