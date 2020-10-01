@@ -1,3 +1,7 @@
+#About Docker
+
+Docker provides the ability to package and run an application in a loosely isolated environment called a container. The isolation and security allow you to run many containers simultaneously on a given host. ... You can even run Docker containers within host machines that are actually virtual machines!
+
 
 # Assignment 3 AVC (Reproducibility)
 
